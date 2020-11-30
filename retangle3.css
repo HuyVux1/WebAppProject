@@ -1,0 +1,35 @@
+    .retanglebody .retangle3 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 220px;
+        margin-left: 10px;
+        justify-content: space-around;
+    }
+    
+    img {
+        display: block;
+        width: 350px;
+        height: 200px;
+        margin-top: 14px;
+    }
+    
+    .retanglebody .button {
+        display: block;
+        width: 120px;
+        height: 30px;
+        background-color: rgb(231, 231, 231);
+        margin-top: 90px;
+        margin-left: 700px;
+        margin-bottom: 100px;
+        font-family: Risque;
+        border-radius: 10px;
+    }
+    
+    .retanglebody .button p {
+        display: inline-block;
+        text-decoration: none;
+        font-family: Risque;
+        margin: 0 auto;
+        padding-left: 25px;
+        padding-top: 5px;
+    }

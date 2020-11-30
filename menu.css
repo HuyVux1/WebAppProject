@@ -1,0 +1,62 @@
+           .menuvertical .retangle1 .re1left {
+               position: absolute;
+               width: 172px;
+               height: 38px;
+               left: 36px;
+               top: 2px;
+               font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+               font-style: normal;
+               font-weight: normal;
+               font-size: 50px;
+               line-height: 58px;
+               text-align: center;
+               color: #9E3D3D;
+               margin-top: 6px;
+               margin-left: 30px;
+           }
+           
+           .menuvertical .retangle1 {
+               display: flex;
+               list-style: none;
+               width: 500px;
+               margin-left: 40px;
+               padding: auto;
+               background: #FFFEFE;
+           }
+           
+           .menuvertical {
+               background-color: #FFFEFE;
+               padding-left: auto;
+               padding-right: auto;
+               display: flex;
+               width: 1000px;
+               height: 100px;
+           }
+           
+           .menuvertical .retangle11 {
+               color: white;
+               font-family: segoe ui light;
+               text-transform: uppercase;
+               font-size: 17px;
+               margin-top: 6px;
+               margin-left: 700px;
+               transition: 0.4s;
+               display: flex;
+           }
+           
+           .menuvertical .retangle11 a {
+               text-decoration: none;
+               transition: 0.4s;
+               text-transform: uppercase;
+               display: inline-block;
+           }
+           
+           .menuvertical .retangle11 li {
+               padding-right: 30px;
+           }
+           
+           .menuvertical .retangle11 a:hover {
+               background-color: white;
+               padding-top: 6px;
+               padding-bottom: 2px;
+           }
