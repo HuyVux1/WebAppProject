@@ -1,0 +1,149 @@
+.header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+
+.logo {
+    height: 80px;
+    width: auto;
+}
+
+.navigation {
+    margin-bottom: 10px;
+    justify-content: center;
+    display: flex;
+}
+
+.navigation a {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -10px;
+    /*border: 1.5px solid black;*/
+    justify-content: center;
+    display: flex;
+    width: 100px;
+    height: 35px;
+}
+
+.home img {
+    opacity: 0.6;
+    margin-top: 7.5px;
+    margin-bottom: 7.5px;
+    width: 20px;
+    height: 20px;
+}
+
+.home p {
+    margin-top: 8.5px;
+    margin-left: 5px;
+}
+
+.about img {
+    opacity: 0.6;
+    margin-top: 7.5px;
+    margin-bottom: 7.5px;
+    width: 20px;
+    height: 20px;
+}
+
+.about p {
+    margin-left: 5px;
+    margin-top: 8.5px;
+}
+
+.home,
+.about {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Lato;
+    font-weight: bolder;
+    font-size: 15px;
+    color: gray;
+}
+
+.gallery {
+    justify-content: center;
+    visibility: visible;
+}
+
+.gallery-inner {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.gallery-item {
+    margin-bottom: 23px;
+    display: block;
+    width: 22%;
+    height: 250px;
+    max-height: 250px;
+    background-color: green;
+}
+
+.gallery-item img {
+    border-radius: 3px;
+    width: 100%;
+    height: 100%;
+}
+
+#profil {}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer .arrow {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 12.4%;
+}
+
+footer img {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+
+
+/*==============*/
+
+.profile {}
+
+.profile-inner {
+    margin-left: 30%;
+    margin-right: 30%;
+    justify-content: space-evenly;
+}
+
+.member {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+}
+
+.member img {
+    height: 60%;
+    width: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.name {
+    margin-left: 30px;
+}
+
+.id {
+    margin-left: 10px;
+}
